@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/taotao?useUnicode=true&amp;characterEncoding=utf-8&amp;zeroDateTimeBehavior=convertToNull
+    username: ENC(2WO0aapGnYUxRmDSZYcC6Q==)
+    password: ENC(2WO0aapGnYUxRmDSZYcC6Q==)
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+
+
+jasypt:
+  encryptor:
+    bean: encryptorBean
